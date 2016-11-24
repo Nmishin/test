@@ -5,7 +5,7 @@ Make sure that it works. $ docker --help
 
 After that you can use docker compose command for defining and running containers.
 
- * <b>Edit docker-compose.yml</b>
+ ** <b>Edit docker-compose.yml</b>
 
 Edit docker-compose.yml file to change some parameters, such as mysql root password and network settings.
 Docker compose use default network (172.17.0.1/16) to connect the containers.
